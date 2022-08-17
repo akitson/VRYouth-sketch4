@@ -67,7 +67,7 @@ public class StateManager : MonoBehaviour
                 playOneShot = false;
             }
 
-            if(timer > 60f + 18f){
+            if(timer > 120f + 18f){
                 pv.RPC("ChangeState", RpcTarget.AllBufferedViaServer, (short)State.Intro);
             }
         }
@@ -109,7 +109,7 @@ public class StateManager : MonoBehaviour
                 playOneShot = false;
             }
 
-            if(timer > 15f + 33f){
+            if(timer > 30f + 33f){
                 if(PhotonNetwork.LocalPlayer.ActorNumber == 1){
                     tmpText.text = "Click (B) to move to the next body part";
 
@@ -131,7 +131,7 @@ public class StateManager : MonoBehaviour
                 playOneShot = false;
             }
 
-            if(timer > 15f + 20f){
+            if(timer > 30f + 20f){
                 if(PhotonNetwork.LocalPlayer.ActorNumber == 1){
                     tmpText.text = "Click (B) to move to the next body part";
 
@@ -156,7 +156,7 @@ public class StateManager : MonoBehaviour
                 playOneShot = false;
             }
 
-            if(timer > 15f + 19f){
+            if(timer > 30f + 19f){
                 if(PhotonNetwork.LocalPlayer.ActorNumber == 1){
                     tmpText.text = "Click (B) to move to the next body part";
 
@@ -181,7 +181,7 @@ public class StateManager : MonoBehaviour
                 playOneShot = false;
             }
 
-            if(timer > 15f + 5f){
+            if(timer > 30f + 5f){
                 if(PhotonNetwork.LocalPlayer.ActorNumber == 1){
                     tmpText.text = "Click (B) to move to the next body part";
 
@@ -206,7 +206,7 @@ public class StateManager : MonoBehaviour
                 playOneShot = false;
             }
 
-            if(timer > 15f + 16f){
+            if(timer > 30f + 16f){
                 if(PhotonNetwork.LocalPlayer.ActorNumber == 1){
                     tmpText.text = "Click (B) to move to the next body part";
 
@@ -231,7 +231,7 @@ public class StateManager : MonoBehaviour
                 playOneShot = false;
             }
 
-            if(timer > 15f + 16f){
+            if(timer > 30f + 16f){
                 if(PhotonNetwork.LocalPlayer.ActorNumber == 1){
                     tmpText.text = "Click (B) to move to the next body part";
 
@@ -261,7 +261,7 @@ public class StateManager : MonoBehaviour
                 playOneShot = false;
             }
 
-            if(timer > 30f + 10f){
+            if(timer > 60f + 10f){
                 if(PhotonNetwork.LocalPlayer.ActorNumber == 1){
                     tmpText.text = "Click (B) to go to the next exercise";
 
@@ -296,7 +296,7 @@ public class StateManager : MonoBehaviour
                 playOneShot = false;
             }
 
-            if(timer > 30f + 15f){
+            if(timer > 60f + 15f){
                 if(PhotonNetwork.LocalPlayer.ActorNumber == 1){
                     tmpText.text = "Click (B) to go to the next exercise";
 

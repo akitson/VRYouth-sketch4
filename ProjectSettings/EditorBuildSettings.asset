@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Lobby.unity
+    guid: 5d5cd2daafe4a3043a7c8a6563c779c6
+  - enabled: 1
+    path: Assets/Scenes/Island.unity
+    guid: 3f5fdf65c7ce0834b8568844fa1190cd
+  - enabled: 1
+    path: Assets/Scenes/DragonCastle.unity
+    guid: 8f02abddd71bddb4684f1aaec30fbab3
+  - enabled: 1
     path: Assets/Scenes/Stage.unity
     guid: adac710ea8e5b7648849b87d80f325a4
   m_configObjects:

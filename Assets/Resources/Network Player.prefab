@@ -589,20 +589,6 @@ MonoBehaviour:
   m_SynchronizeLayers:
   - SynchronizeType: 0
     LayerIndex: 0
---- !u!114 &2862817944821111584
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5666443371573830945}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1359f1b9d4244594b86a3034dcf686ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  greenMat: {fileID: 2100000, guid: 503ad55dea3c80f46be1d90641c19a52, type: 2}
-  purpleMat: {fileID: 2100000, guid: 51857da6b3273984da42834c3a46daaf, type: 2}
 --- !u!1001 &3396131810557127308
 PrefabInstance:
   m_ObjectHideFlags: 0
